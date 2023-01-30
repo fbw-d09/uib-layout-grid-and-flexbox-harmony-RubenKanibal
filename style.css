@@ -18,3 +18,39 @@
 }
 
 /* Add your styles below here*/
+
+.container {
+  height: 500vh;
+  background-color: rgb(78, 78, 78);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.bg1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+}
+
+.bg2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+}
+
+body div div div {
+  background-color: rgba(0, 0, 0, 0.728);
+  padding: 5px;
+}
+
+.bg1:hover {
+  box-shadow: rgba(0, 0, 0, 0.86) 0px 3px 8px;
+}
+
+.bg2:hover {
+  box-shadow: rgba(0, 0, 0, 0.86) 0px 3px 8px;
+}
